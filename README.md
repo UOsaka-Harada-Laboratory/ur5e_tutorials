@@ -12,13 +12,9 @@
 
 ### Docker build environment
 
-- [Ubuntu 18.04 PC](https://ubuntu.com/certified/laptops?q=&limit=20&vendor=Dell&vendor=Lenovo&vendor=HP&release=18.04+LTS)
-  - NVIDIA GeForce RTX2080Ti
-  	- NVIDIA Driver 455.23.05
-    - CUDA 11.1
-  - Docker 20.10.12
-  - Docker Compose 1.29.2
-  - NVIDIA Docker 2.10.0
+- [Ubuntu 22.04 PC](https://ubuntu.com/certified/laptops?q=&limit=20&vendor=Dell&vendor=Lenovo&vendor=HP&release=22.04+LTS)
+  - Docker 27.4.1
+  - Docker Compose 2.32.1
 
 ### UR5e with a robotiq gripper
 
