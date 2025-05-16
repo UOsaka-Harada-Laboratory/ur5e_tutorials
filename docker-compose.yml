@@ -4,10 +4,7 @@ services:
             context: .
             dockerfile: docker/ur5e/Dockerfile
         container_name: ur5e_container
-        runtime: nvidia
         environment:
-            - NVIDIA_VISIBLE_DEVICES=all
-            - NVIDIA_DRIVER_CAPABILITIES=all
             # to transport X11 application window
             - DISPLAY=$DISPLAY
             - QT_X11_NO_MITSHM=1
