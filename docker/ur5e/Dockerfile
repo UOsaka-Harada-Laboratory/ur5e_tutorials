@@ -1,4 +1,4 @@
-FROM nvidia/opengl:1.2-glvnd-devel-ubuntu18.04
+FROM ubuntu:18.04
 
 # setting environmental variables
 ENV DEBIAN_FRONTEND noninteractive
@@ -46,11 +46,13 @@ RUN apt update && apt install -y --no-install-recommends \
     python-catkin-tools \
     python-setuptools \
     libcanberra-gtk* \
+    libgl1-mesa-glx \
     build-essential \
     python-rosdep \
     libudev-dev \
     python-pip \
     net-tools \
+    x11-apps \
     socat \
     byobu \
     dbus \
